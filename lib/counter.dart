@@ -24,6 +24,15 @@ class _CounterState extends State<Counter> {
           label: Text('증가'),
           icon: Icon(Icons.add),
         ),
+        ElevatedButton.icon(
+          onPressed: () {
+            setState(() {
+              count = count - 1;
+            });
+          },
+          label: Text('감소'),
+          icon: Icon(Icons.remove),
+        ),
       ],
     );
   }
