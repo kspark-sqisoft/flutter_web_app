@@ -24,6 +24,7 @@ class _CounterState extends State<Counter> {
           label: Text('증가'),
           icon: Icon(Icons.add),
         ),
+        Text('test'),
       ],
     );
   }
